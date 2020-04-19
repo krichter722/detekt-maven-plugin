@@ -8,5 +8,8 @@ jdk:
   - openjdk14
   - openjdk-ea
 
+script:
+  - mvn install
+
 after_success:
 - bash <(curl -s https://codecov.io/bash)
