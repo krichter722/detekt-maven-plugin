@@ -40,7 +40,7 @@
 
         <!-- Compile -->
         <kotlin.version>1.3.61</kotlin.version>
-        <detekt.version>1.7.0</detekt.version>
+        <detekt.version>1.7.4</detekt.version>
         <jcommander.version>1.72</jcommander.version>
         <snakeyaml.version>1.21</snakeyaml.version>
         <maven.api.version>3.6.2</maven.api.version>
@@ -271,6 +271,7 @@
                     <includes>
                         <include>**/*Spec.*</include>
                     </includes>
+                    <trimStackTrace>false</trimStackTrace>
                 </configuration>
                 <dependencies>
                     <dependency>
